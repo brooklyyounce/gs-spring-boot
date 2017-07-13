@@ -6,7 +6,7 @@ image_resource:
     repository: gradle
 
 inputs:
-- name: source_code
+- name: source_code/complete
 
 outputs:
 - name: built-project

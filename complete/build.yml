@@ -19,4 +19,6 @@ run:
   - |
     cd source_code
     gradle --stacktrace build
+    fly hijack
+    cp /tmp/build/put/built-project/demo.jar
     

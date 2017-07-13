@@ -26,10 +26,10 @@ run:
     pwd
     cd ..
     pwd
-    sudo mkdir put
+    mkdir put
     pwd
     cd put
-    sudo mkdir built-project
+    mkdir built-project
     pwd
     ls
     cd..

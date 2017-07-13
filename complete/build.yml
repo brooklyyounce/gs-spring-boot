@@ -10,7 +10,6 @@ inputs:
 
 outputs:
 - name: built-project
-- path: /tmp/build/put/built-project/demo.jar
 
 run:
   user: root

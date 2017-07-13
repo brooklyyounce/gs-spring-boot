@@ -20,7 +20,14 @@ run:
     cd source_code
     cd complete
     gradle --stacktrace build
-    mkdir /tmp/build/put/built-project
-    cp  --force build/libs/gs-spring-boot-0.1.0.jar /tmp/build/put/built-project/demo.jar
+    cd ..
+    pwd
+    cd ..
+    pwd
+    cd ..
+    pwd
+    mkdir put/built-project
+    
+    cp  --force libs/gs-spring-boot-0.1.0.jar put/built-project/demo.jar
     
     

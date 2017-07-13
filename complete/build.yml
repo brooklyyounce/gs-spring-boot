@@ -17,5 +17,5 @@ run:
   - -exc
   - |
     cd source_code
-    gradle package
-    cp ./target/gs-spring-boot-0.0.1-SNAPSHOT.jar ../built-project/demo.jar
+    gradle build
+    cp ./target/gs-spring-boot-0.1.0.jar ../built-project/demo.jar

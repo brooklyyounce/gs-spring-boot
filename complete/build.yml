@@ -18,8 +18,9 @@ run:
   - -exc
   - |
     gradle --stacktrace build
+    gradle clean assemble
     pwd
     ls
     cd source_code
     ls
-    cp  /./././built-project/gs-spring-boot-0.1.0.jar tmp/build/put/built-project/demo.jar
+    cp  build/libs/*.jar ../artifacts

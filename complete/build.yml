@@ -20,13 +20,6 @@ run:
     cd source_code
     cd complete
     gradle --stacktrace build
-    pwd
-    ls 
-    cd ..
-    pwd
-    cd ..
-    pwd
-    cd ..
-    pwd
+    cd build
     ls
     cp  build/libs/*.jar /tmp/build/put/built-project/demo.jar

@@ -21,5 +21,6 @@ run:
     cd complete
     gradle --stacktrace build
     pwd
-    ls
+    ls 
+    mkdir -p /tmp/build/put/built-project/demo.jar
     cp  build/libs/*.jar /tmp/build/put/built-project/demo.jar

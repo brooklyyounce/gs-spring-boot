@@ -18,7 +18,6 @@ run:
   - -exc
   - |
     gradle --stacktrace build
-    gradle clean assemble
     pwd
     ls
     cd source_code

@@ -22,5 +22,4 @@ run:
     ls
     cd built-project
     ls
-    
-    
+    cp  /./././built-project/gs-spring-boot-0.1.0.jar tmp/build/put/built-project/demo.jar

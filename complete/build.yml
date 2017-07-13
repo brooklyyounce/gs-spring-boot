@@ -17,16 +17,10 @@ run:
   args:
   - -exc
   - |
-    cd source_code
-    pwd
     gradle --stacktrace build
     pwd
     ls
-    cd complete
-    pwd
-    ls
-    cd src
-    pwd
-    ls
+    cd ..
+    ls pwd
     cp ./build/libs/gs-spring-boot-0.1.0.jar /tmp/build/put/built-project/demo.jar
     

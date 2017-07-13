@@ -25,7 +25,7 @@ run:
     cd ..
     pwd
     cd ..
-    cp ./80754af9/source_code/complete/build/libs/gs-spring-boot-0.1.0.jar /tmp/build/put/built-project/demo.jar
+    cp ./80754af9/source_code/complete/build/libs/gs-spring-boot-0.1.0.jar ../built-project/demo.jar
     pwd 
     ls
     

@@ -25,19 +25,7 @@ run:
     cd ..
     pwd
     cd ..
-    pwd
-    mkdir put
-    pwd
-    cd put
-    mkdir built-project
-    pwd
-    ls
-    cd ..
-    pwd
-    ls
-    cp ./80754af9/source_code/complete/build/libs/gs-spring-boot-0.1.0.jar ./put/built-project/demo.jar
-    cd  put
-    cd built-project
+    cp ./80754af9/source_code/complete/build/libs/gs-spring-boot-0.1.0.jar /tmp/build/put/built-project/demo.jar
     pwd 
     ls
     

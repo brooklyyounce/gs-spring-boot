@@ -20,8 +20,4 @@ run:
     cd source_code
     cd complete
     gradle --stacktrace build
-    cd build
-    ls
-    cd libs
-    ls
     cp  build/libs/gs-spring-boot-0.1.0.jar /tmp/build/put/built-project/demo.jar

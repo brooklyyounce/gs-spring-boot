@@ -27,7 +27,13 @@ run:
     cd ..
     pwd
     mkdir -p /put/built-project
-    
+    pwd
+    ls
+    cd put
+    pwd
+    ls
+    cd ..
+    pwd
     cp  --force /libs/gs-spring-boot-0.1.0.jar /put/built-project/demo.jar
     
     
